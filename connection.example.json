@@ -1,0 +1,23 @@
+{
+  "wifi": {
+    "ssid": "your-2.4GHz-wifi",
+    "password": "your-wifi-password"
+  },
+  "broker": {
+    "host": "auto",
+    "port": 1883,
+    "username": "",
+    "password": ""
+  },
+  "axis": "xy",
+  "topics": {
+    "x": {
+      "command": "tracker/x/command",
+      "status": "tracker/x/status"
+    },
+    "y": {
+      "command": "tracker/y/command",
+      "status": "tracker/y/status"
+    }
+  }
+}
