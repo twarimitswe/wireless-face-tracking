@@ -1,0 +1,7 @@
+.venv/
+__pycache__/
+models/*.onnx
+models/*.task
+data/
+connection.json
+firmware/stepper_tracker/connection.h
